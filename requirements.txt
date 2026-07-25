@@ -1,0 +1,11 @@
+# ─── Dépendances DictéeRadio ──────────────────────────────────────────────────
+# Installer avec : pip install -r requirements.txt
+
+vosk>=0.3.45          # Moteur ASR hors-ligne
+pyaudio>=0.2.14       # Capture audio microphone
+
+# ── Inclus dans Python 3.11 (pas besoin d'installer) ──────────────────────────
+# tkinter               Interface graphique
+# json, re, queue       Bibliothèques standard
+# threading, pathlib    Bibliothèques standard
+# audioop, argparse     Bibliothèques standard
